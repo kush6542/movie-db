@@ -1,0 +1,33 @@
+<% include partials/header %>
+
+
+<div id = "movieposter">
+	<img src = <%= selectedmovie.poster %> >
+	<p>
+		
+	</p>	 
+</div >
+<a href="/" id ="backbutton" class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Back to Home !</a>
+ <h1 class="display-4" id = "reshead">Here are the details of  <%= selectedmovie.title %> </h1>
+<div id ="resList">
+	<ul class="border border-primary">
+	<li><strong>TITLE </strong> - <%= selectedmovie.title %> </li>
+	<li><strong> YEAR </strong> - <%= selectedmovie.year %> </li>
+	<li><strong> RATED </strong> - <%= selectedmovie.rated %> </li>
+	<li><strong> RELEASED </strong> - <%= selectedmovie.released%> </li>
+	<li><strong> RUNTIME </strong> - <%= selectedmovie.runtime %> </li>
+	<li><strong> GENRE </strong> - <%= selectedmovie.genre %> </li>
+	<li><strong> DIRECTOR </strong> - <%= selectedmovie.director %> </li>
+	<li><strong>  WRITER</strong> - <%= selectedmovie.writer %> </li>
+	<li><strong> ACTOR </strong> - <%= selectedmovie.actor  %> </li>
+	<li><strong> PLOT </strong> - <%= selectedmovie.plot %> </li>
+	<li><strong> LANGUAGE </strong> - <%= selectedmovie.language  %> </li>
+	<li><strong> COUNTRY</strong> - <%= selectedmovie.country%> </li>
+	<li><strong> AWARDS </strong> - <%= selectedmovie.awards%> </li>
+	
+		
+</ul>
+	</div>
+
+
+<% include partials/footer %>

@@ -1,0 +1,15 @@
+<% include partials/header %>
+<div id = "main">
+
+<h1 class="display-3 text-center">Search for any movie !</h1>
+
+    <form action="/results" method="GET">
+        <input id = "searchkaro" class = "form-control" type="text" name=searchquery placeholder="enter name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"><br>
+        <button id = "buttonkaro" type="submit" class="btn btn-success btn-lg"> SEARCH   <i class="fab fa-searchengin"></i></button>
+
+
+    </form>
+
+</div>
+
+<% include partials/footer %>

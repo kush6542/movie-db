@@ -1,0 +1,78 @@
+html { 
+  background: url("https://images.unsplash.com/photo-1424894408462-1c89797f2305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#movieposter{
+	width: 350px;
+	height: 445px;
+	float: right;
+	margin-top: 5%;
+	
+	
+}
+#searchkaro{
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+#buttonkaro{
+	margin-top: 3px;
+	margin-left: 75%;
+	margin: 0 auto;
+}
+
+h1 {
+		font-weight: bold;
+   background: rgba(255, 255, 255, 0.2);
+   left: 0;
+   position: absolute;
+   right: 0;
+   text-align: center;
+	padding-bottom: 20px;
+}
+#backbutton{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#resList {
+	margin-top: 10%;
+	width : 74.5%;
+   background: rgba(35, 35, 35, 0.5);
+   left: 0;
+   position: absolute;
+   right: 0;
+   
+}
+
+#reshead{
+	width: 50%;
+	margin-left:20%;
+	
+}
+
+li{
+	
+	clear:both;
+   float:left;
+	color: #f4f8ff;
+	
+	
+}
+
+form{
+	
+	margin-top: 10%;
+   background: rgba(255, 255, 255, 0.01);
+   left: 0;
+   position: absolute;
+   right: 0;
+   text-align: center;
+	margin-right: 10px;
+}

@@ -1,0 +1,14 @@
+<% include partials/header %>
+    <div id="row">
+        <h1 class="display-3  text-center">Search for any movie !</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                </div>
+                <form action="/results" method="GET">
+                       <input type="text" id="searchkaro" name=searchquery placeholder="enter movie name" class="input-group input-group-lg form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"><br> <br>
+                        <button id="buttonkaro" type="submit" class="btn btn-success "> SEARCH </button>
+                    
+                </form>
+            </div>
+            <% include partials/footer %>
